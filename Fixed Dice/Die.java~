@@ -1,0 +1,26 @@
+public class Die 
+{
+  private int numberOfSides;
+  public static final int DEFAULT_SIZE = 6;
+  //final makes DEFAULT_SIZE a constant, which is static
+  
+  public Die() 
+  { 
+    numberOfSides = DEFAULT_SIZE;
+  }
+  
+  public Die(int size)
+  {
+    numberOfSides = size;
+  }
+  
+  public int roll()
+  {
+    return (int)(Math.random()* numberOfSides) + 1;
+  }
+  
+  public int getNumberOfSides()
+  {
+    return numberOfSides;
+  }
+}
