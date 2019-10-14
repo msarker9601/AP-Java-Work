@@ -1,0 +1,17 @@
+/**
+ * Auto Generated Java Class.
+ */
+public class Die {
+  
+  public Die() { 
+    /* YOUR CONSTRUCTOR CODE HERE*/
+  }
+  
+   public int roll() {
+    return (int)(Math.random()* 6)+1;
+  }
+  
+   
+  
+}
+
