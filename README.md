@@ -1,1 +1,1 @@
-# AP-Java-Work
+I'm currently a senior at Brooklyn Technical High School and am taking AP Computer Science A. I wanted to use this GitHub Repo to showcase what I'll be doing this whole year. 
